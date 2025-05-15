@@ -1,0 +1,44 @@
+<html>
+<head>
+ <title> login </title>
+ <link rel="stylesheet" href="login.css">
+
+<script src="validation.js"> </script>
+</head>
+
+<body> 
+    <h1> Welcome  </h1>
+    <h2> login to your account to get the full experience  </h2>
+    <form action="login.php" method = "post" name = "form_login" >
+    <table class = "maintable" border = "0" cellspacing="0" width="100%" >
+
+<tr> <td rowspan="7"> <img src="login_pic.jpg" width="330px" height="340px"></td></tr>
+
+<tr>
+<td> <h3> E-mail : </h3> </td>
+<td>   <input type ="text"  name ="email"  size = "30" class="p email" > </td>
+</tr>
+<tr> <td id= "ligne_vide_mail" colspan = "2" style = "color : rgb(7, 7, 7) " ; text-align: center ; >  </td></tr>
+<tr>
+
+<td> <h3> password : </h3> </td>
+<td>  <input type ="password"  name ="password"  size = "30"  class="p password"  > </td>
+</tr>
+<tr> <td id= "ligne_vide_pass" colspan = "2" style = "color : hsl(0, 5%, 4%) " ; text-align: center ; >  </td></tr>
+
+<tr>
+<td> <h3></h3> </td>
+<td>  <input type ="submit"  value = "Confirm" class="confirm" onclick = "return validation_login()"> 
+    <input type ="reset"  value = "reset" class="reset" >
+  </td>
+</tr>
+
+<tr>
+
+<td colspan="inscrire"> <a  href = "inscription.html"> sign up </a> </td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>

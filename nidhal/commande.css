@@ -1,0 +1,59 @@
+body {
+    background-image:url("stockimages/ultbg2.webp") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-style: Calibri ;
+} 
+    h1 {  color:rgba(44, 37, 26, 0.82) ; text-align:center ;
+    font-family: 'Times New Roman', Times, serif; }
+table{
+    margin:auto ; 
+    background-color: rgba(255, 255, 255, 0.16); 
+    border: 2px;
+border-radius: 10px;
+border-style: solid;
+border-color: rgba(201, 188, 188, 0.347) ;
+padding-bottom: 5px;
+backdrop-filter: blur(20px) ;
+
+} 
+
+table img {
+    border-radius: 10px;
+    border-radius: 10px;
+border-style: solid;
+border-color: rgba(143, 143, 143, 0.29) ;
+height : 400px ;
+}
+
+.info {
+    background-color: rgba(105, 91, 73, 0);
+    border-style: none;
+    font-size: 1rem;
+    transform: translateY(-2px);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(59, 36, 26, 0.9);
+  
+}
+
+h3 {
+    transform: translateY(5px);
+}
+
+.amount{
+    background-color: rgba(255, 253, 251, 0.587);
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.146);
+    border-radius: 3px;
+    text-align: center;
+    transform: translateY(-3px);
+}
+
+.confirm{
+    border-style: solid;
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 1rem;
+    border-color: rgba(127, 127, 127, 0.388);
+    border-radius: 5px;
+    cursor : pointer; }

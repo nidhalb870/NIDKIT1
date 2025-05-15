@@ -1,0 +1,75 @@
+body {
+   
+    background-color: #d6dbdf;
+    background-size: 100%;
+    object-fit: cover;
+    backdrop-filter: blur(2px);
+
+    
+}
+ 
+    h1 {  color: #2e4053 ;
+        font-size: 3rem;
+         text-align:center ; }
+         h2 {  color:rgba(86, 66, 66, 0.717) ;
+            font-size: 1.5rem;
+             text-align:center ; }
+
+table{
+    margin:auto ; 
+    box-shadow : 2px 2px 30px rgba(74, 18, 18, 0.283);
+    background-color:rgba(186, 183, 180, 0.349) ;
+    border-radius: 20px ;
+    height: fit-content;
+    width: 700px;
+   
+    
+} 
+ img {
+      border-top-left-radius: 23px ;
+      border-bottom-left-radius: 23px ;
+      border-radius: 25px;
+      padding-bottom:20px ;
+      object-fit: cover;
+      
+ }
+
+.p {
+   
+    border-radius: 5px;
+    border-color: rgba(80, 76, 76, 0.276);
+    color: rgb(0, 0, 0);
+    background-color: rgba(107, 107, 107, 0.037);
+   border: 1px;
+    border-style: solid;
+
+}
+
+.confirm {
+    background-color: rgba(109, 109, 109, 0.123);
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.333);
+    
+}
+
+.reset{
+    background-color:rgba(109, 109, 109, 0.205);
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.333);
+}
+
+a {
+color: rgb(22, 0, 50);
+
+}
+
+h3{
+   transform: translateY(7px);
+
+}
+
+.pasdcompte{
+    transform: translateX(70px);
+}
